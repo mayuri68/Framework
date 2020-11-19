@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16371" started-at="2020-09-22T19:20:19Z" finished-at="2020-09-22T19:20:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16371" started-at="2020-09-22T19:20:19Z" finished-at="2020-09-22T19:20:36Z">
+      <class name="tests.TestFlightBookingwithExcel">
+        <test-method status="PASS" signature="browserlaunch(java.lang.String)[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="browserlaunch" is-config="true" duration-ms="11346" started-at="2020-09-22T19:20:19Z" finished-at="2020-09-22T19:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://blazedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="selectDestinations(java.lang.String, java.lang.String)[pri:1, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="selectDestinations" duration-ms="1125" started-at="2020-09-22T19:20:32Z" data-provider="getDestinationsData" finished-at="2020-09-22T19:20:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestinations -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-09-22T19:20:33Z" finished-at="2020-09-22T19:20:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectDestinations status=SUCCESS method=TestFlightBookingwithExcel.selectDestinations(java.lang.String, java.lang.String)[pri:1, instance:tests.TestFlightBookingwithExcel@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="bookFlight(java.lang.String, java.lang.String)[pri:2, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="bookFlight" duration-ms="848" started-at="2020-09-22T19:20:33Z" data-provider="getDestinationsData" finished-at="2020-09-22T19:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-09-22T19:20:34Z" finished-at="2020-09-22T19:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookFlight status=SUCCESS method=TestFlightBookingwithExcel.bookFlight(java.lang.String, java.lang.String)[pri:2, instance:tests.TestFlightBookingwithExcel@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="passengerDetails()[pri:3, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="passengerDetails" duration-ms="1257" started-at="2020-09-22T19:20:34Z" finished-at="2020-09-22T19:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passengerDetails -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-09-22T19:20:35Z" finished-at="2020-09-22T19:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passengerDetails status=SUCCESS method=TestFlightBookingwithExcel.passengerDetails()[pri:3, instance:tests.TestFlightBookingwithExcel@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="flightConfirmation()[pri:4, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="flightConfirmation" duration-ms="66" started-at="2020-09-22T19:20:35Z" finished-at="2020-09-22T19:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmation -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-09-22T19:20:35Z" finished-at="2020-09-22T19:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightConfirmation status=SUCCESS method=TestFlightBookingwithExcel.flightConfirmation()[pri:4, instance:tests.TestFlightBookingwithExcel@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestFlightBookingwithExcel@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="934" started-at="2020-09-22T19:20:35Z" finished-at="2020-09-22T19:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestFlightBookingwithExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

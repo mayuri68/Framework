@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="departureCity" value="Paris"/>
+  <parameter name="arrivalCity" value="Rome"/>
+  <parameter name="URL" value="https://blazedemo.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestFlightBookingwithExcel">
+        <methods>
+          <include name="bookFlight"/>
+          <include name="passengerDetails"/>
+          <include name="closeBrowser"/>
+          <include name="flightConfirmation"/>
+          <include name="browserlaunch"/>
+          <include name="selectDestinations"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- tests.TestFlightBookingwithExcel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
